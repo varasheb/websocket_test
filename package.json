@@ -1,0 +1,22 @@
+{
+  "name": "theia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/server/index.js",
+    "dev": "tsx src/server/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.19.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "openai": "^4.93.0",
+    "ws": "^8.18.1"
+  }
+}
